@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>citireTast2</title>
+    </head>
+    <body>
+        <form>
+
+            <div>
+                <input name="numeUser" type="text" placeholder="Nume">
+                <input name="parolaUser" type="password" placeholder="Parola">
+            </div>
+
+            <div>
+                Culoare preferata?
+                <input name="culoareUser" type="radio" value="red">Rosu
+                <input name="culoareUser" type="radio" value="blue">albastru
+                <input name="culoareUser" type="radio" value="green">verde
+            </div>
+
+            <div>
+                <input name="taraUser" list="tari" placeholder="Tara">
+                <datalist id="tari">
+                    <option value="Algeria">
+                    <option value="Belarus">
+                    <option value="Romania"> 
+                </datalist>
+                <input type="submit">
+            </div>
+
+            <!--cand pune la type password o sa cenzureze ce scrie utilizatorul pentru el-->
+            <!--type radio sunt mai multe optiuni sub forma de bulina-->
+            <!--si cand avem lista ne face o lista cu optiuni-->
+
+        </form>
+    </body>
+</html>
